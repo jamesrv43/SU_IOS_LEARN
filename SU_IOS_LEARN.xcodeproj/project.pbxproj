@@ -53,6 +53,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		614067FF240E4795007D6536 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCBF240E3C4100958A25 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		61406800240E47A0007D6536 /* Connector */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCD1240E3DDF00958A25 /* APIRequest.swift */,
+			);
+			name = Connector;
+			sourceTree = "<group>";
+		};
+		61406801240E47A9007D6536 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCD5240E3DEB00958A25 /* EmployeeListTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		61406802240E47B2007D6536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCD3240E3DEB00958A25 /* EmployeeModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		61406803240E47B9007D6536 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCD4240E3DEB00958A25 /* EmployeeTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		61406804240E47C0007D6536 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCC3240E3C4100958A25 /* Main.storyboard */,
+				61C5DCC6240E3C4200958A25 /* Assets.xcassets */,
+				61C5DCC8240E3C4200958A25 /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		61406805240E47D4007D6536 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCD6240E3DEB00958A25 /* NSDictionary.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		61406806240E47DC007D6536 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61C5DCCB240E3C4200958A25 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		61C5DCB3240E3C4100958A25 = {
 			isa = PBXGroup;
 			children = (
@@ -74,16 +140,14 @@
 		61C5DCBE240E3C4100958A25 /* SU_IOS_LEARN */ = {
 			isa = PBXGroup;
 			children = (
-				61C5DCD1240E3DDF00958A25 /* APIRequest.swift */,
-				61C5DCBF240E3C4100958A25 /* AppDelegate.swift */,
-				61C5DCD5240E3DEB00958A25 /* EmployeeListTableViewController.swift */,
-				61C5DCD3240E3DEB00958A25 /* EmployeeModel.swift */,
-				61C5DCD4240E3DEB00958A25 /* EmployeeTableViewCell.swift */,
-				61C5DCD6240E3DEB00958A25 /* NSDictionary.swift */,
-				61C5DCC3240E3C4100958A25 /* Main.storyboard */,
-				61C5DCC6240E3C4200958A25 /* Assets.xcassets */,
-				61C5DCC8240E3C4200958A25 /* LaunchScreen.storyboard */,
-				61C5DCCB240E3C4200958A25 /* Info.plist */,
+				61406806240E47DC007D6536 /* Support Files */,
+				61406805240E47D4007D6536 /* Extension */,
+				61406804240E47C0007D6536 /* Resource */,
+				61406803240E47B9007D6536 /* View */,
+				61406802240E47B2007D6536 /* Model */,
+				61406801240E47A9007D6536 /* Controller */,
+				61406800240E47A0007D6536 /* Connector */,
+				614067FF240E4795007D6536 /* App */,
 			);
 			path = SU_IOS_LEARN;
 			sourceTree = "<group>";
