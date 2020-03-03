@@ -5,13 +5,13 @@ PODS:
   - EVReflection (5.10.1):
     - EVReflection/Core (= 5.10.1)
   - EVReflection/Core (5.10.1)
-  - MBProgressHUD (1.2.0)
+  - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.9.1)
   - AlamofireImage
   - EVReflection
-  - MBProgressHUD
+  - MBProgressHUD (~> 1.0.0)
 
 SPEC REPOS:
   trunk:
@@ -24,8 +24,8 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: 70cec65f27672f96063fa8a3a3a9b0572c1f0857
+PODFILE CHECKSUM: 2635035f23e5f8302bf7ec0a418227c501cd0b9f
 
 COCOAPODS: 1.8.4
