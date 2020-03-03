@@ -8,7 +8,7 @@ PODS:
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 4.9.1)
   - AlamofireImage
   - EVReflection
   - MBProgressHUD
@@ -26,6 +26,6 @@ SPEC CHECKSUMS:
   EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 1b6340f391d3f300ed53e9a68fa8db059ac70ce9
+PODFILE CHECKSUM: 70cec65f27672f96063fa8a3a3a9b0572c1f0857
 
 COCOAPODS: 1.8.4
