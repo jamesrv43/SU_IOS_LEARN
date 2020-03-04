@@ -140,14 +140,14 @@
 		61C5DCBE240E3C4100958A25 /* SU_IOS_LEARN */ = {
 			isa = PBXGroup;
 			children = (
-				61406806240E47DC007D6536 /* Support Files */,
-				61406805240E47D4007D6536 /* Extension */,
-				61406804240E47C0007D6536 /* Resource */,
-				61406803240E47B9007D6536 /* View */,
-				61406802240E47B2007D6536 /* Model */,
-				61406801240E47A9007D6536 /* Controller */,
-				61406800240E47A0007D6536 /* Connector */,
 				614067FF240E4795007D6536 /* App */,
+				61406800240E47A0007D6536 /* Connector */,
+				61406801240E47A9007D6536 /* Controller */,
+				61406805240E47D4007D6536 /* Extension */,
+				61406802240E47B2007D6536 /* Model */,
+				61406804240E47C0007D6536 /* Resource */,
+				61406806240E47DC007D6536 /* Support Files */,
+				61406803240E47B9007D6536 /* View */,
 			);
 			path = SU_IOS_LEARN;
 			sourceTree = "<group>";
@@ -451,7 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siamu.SU-IOS-LEARN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -471,7 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siamu.SU-IOS-LEARN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

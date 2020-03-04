@@ -6,9 +6,9 @@ target 'SU_IOS_LEARN' do
   use_frameworks!
   
   # Pods for SU_IOS_LEARN
-  pod 'Alamofire', '~> 4.9.1'
-  pod 'AlamofireImage'
+  pod 'Alamofire', '~> 4.7.3'
+  pod 'AlamofireImage', '~> 3.4.1'
   pod 'MBProgressHUD', '~> 1.0.0'
-  pod 'EVReflection'
+  pod 'EVReflection', '~> 5.10.1'
   
 end
